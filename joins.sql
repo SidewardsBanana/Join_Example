@@ -13,3 +13,11 @@ VALUES (1, 'John'),
     (3, 'David'),
     (4, 'John'),
     (5, 'Betty');
+
+CREATE TABLE orders (
+    order_id int NOT NULL,
+    amount int,
+    customer int NOT NULL,
+    PRIMARY KEY(order_id),
+    FOREIGN KEY(customer) REFERENCES customers(customer_id)
+);
