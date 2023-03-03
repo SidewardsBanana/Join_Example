@@ -21,3 +21,10 @@ CREATE TABLE orders (
     PRIMARY KEY(order_id),
     FOREIGN KEY(customer) REFERENCES customers(customer_id)
 );
+
+INSERT INTO orders (order_id, amount, customer)
+VALUES (1, 200, 3),
+    (2, 500, 3),
+    (3, 300, 2),
+    (4, 800, 5),
+    (5, 150, 1);
