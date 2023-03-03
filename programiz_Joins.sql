@@ -23,8 +23,8 @@ CREATE TABLE orders (
 );
 
 INSERT INTO orders (order_id, amount, customer)
-VALUES (1, 200, 3),
+VALUES (1, 200, 10),
     (2, 500, 3),
-    (3, 300, 2),
+    (3, 300, 6),
     (4, 800, 5),
-    (5, 150, 1);
+    (5, 150, 8);
