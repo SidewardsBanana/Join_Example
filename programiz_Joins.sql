@@ -8,10 +8,10 @@ CREATE TABLE customers (
 );
 
 INSERT INTO customers (customer_id, first_name)
-VALUES (1, 'John'),
-    (2, 'Robbert'),
-    (3, 'David'),
-    (4, 'John'),
+VALUES (1, 'Joe'),
+    (2, 'Ron'),
+    (3, 'Samantha'),
+    (4, 'Liam'),
     (5, 'Betty');
 
 CREATE TABLE orders (
@@ -23,8 +23,8 @@ CREATE TABLE orders (
 );
 
 INSERT INTO orders (order_id, amount, customer)
-VALUES (1, 200, 10),
-    (2, 500, 3),
-    (3, 300, 6),
-    (4, 800, 5),
-    (5, 150, 8);
+VALUES (1, 200, 2),
+    (2, 500, 5),
+    (3, 300, 3),
+    (4, 800, 4),
+    (5, 150, 1);
